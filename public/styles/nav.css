@@ -1,0 +1,53 @@
+.nav {
+  height: 120px;
+  display: flex;
+  background-color: #4056A1;
+  position: fixed;
+  top: auto;
+  width: -webkit-fill-available;
+}
+.appName {
+  display: flex;
+  align-items: center;
+  font-family: 'Bungee Shade', cursive ;
+  color: #FFFFFF;
+  padding-left: 1.5em ;
+  
+}
+.tweet-click {
+  margin-left: auto  ;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  color: #FFFFFF;
+  padding-right: 1.5em ;
+}
+.info {
+  display: flex;
+  justify-content: center;
+}
+.name {
+  display: flex;
+  justify-content: center;
+}
+.fa-angles-down{
+  padding-left: 5px;
+}
+.fa-angles-down{
+  padding-left: 10px;
+  padding-right: 1.5em;
+}
+.fa-angles-down:hover{
+  animation: bounce 2s infinite;
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(15px);
+  }
+  60% {
+    transform: translateY(5px);
+  }
+}
